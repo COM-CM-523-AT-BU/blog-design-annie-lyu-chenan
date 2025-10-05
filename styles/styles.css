@@ -2,3 +2,217 @@
 Put your styles in this file. Import your fonts at the top of the file! See example below, which uses @import to retrieve the Roboto typeface from Google Fonts.
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+	box-sizing: border-box; 
+}
+
+*, 
+*::before, 
+*::after{
+	box-sizing: inherit;
+}
+
+article{
+	max-width: 40rem; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    line-height: 1.5;
+}
+
+h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #fb5185;
+    border-bottom: 2px solid #77ced5;
+    margin-top: 5rem;
+}
+
+.author{
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-align: right;
+    line-height: 1.875;
+    margin: 0 0 0 15rem;
+    padding-right: 2rem;
+    border-right: 2px solid #fb5185;
+}
+
+h4.author{
+    font-weight: 300; 
+    font-size: 1rem;
+}
+
+h5.author{
+    font-weight: 300; 
+}
+
+p.author{
+    text-align: justify;
+    text-align-last: right;
+}
+
+
+section p{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 4rem 0; 
+    background-color: #f6f5cc;
+    padding: 1.5rem 2.5rem;
+}
+
+section p span{
+    font-weight: 500;
+    color: #0c3ddc
+}
+
+p{
+    line-height: 1.5;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+}
+
+.nav{
+    font-family: "Inter", sans-serif;
+    font-weight: 300; 
+    border-left: 2px solid #fb5185;
+    line-height: 1.5;
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    margin: 0 5px 0 0; 
+}
+
+.nav li a{
+    text-transform: uppercase;
+}
+
+.nav .info{
+    display: block;
+}
+
+button{
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+header h5{
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-weight: 600; 
+    text-transform: uppercase;
+    letter-spacing: 0.025em; 
+    margin-top: 5rem; 
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid #77ced5;
+}
+
+blockquote p{
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 4rem;
+}
+
+
+.first{
+    display: block; 
+    font-family: "Raleway", sans-serif;
+    color: #77ced5; 
+    font-weight: 500;
+    font-size: 10rem; 
+    line-height: 0.8;
+    margin: 5rem 0 -4rem -3rem;
+}
+
+.source{
+    font-style: italic;
+    font-size: 1rem;
+    color: #fb5185
+}
+
+blockquote + p{
+    margin-top: 5rem;
+}
+
+img{
+    max-width: 100%;
+    margin: 2rem 0 0 0;
+    border-radius: 0.4em;
+    box-shadow: 3px 0 8px lightgray;
+    padding: 0.5rem; 
+}
+
+figcaption{
+    font-family: "Inter", sans-serif;
+    line-height: 1.75;
+    font-size: 0.75rem;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    /* border-top: 1px solid #77ced5;
+    border-left: 1px solid #77ced5; */
+    margin: 0.5rem 0 2rem 0; 
+}
+
+ul{
+    font-family: "Merriweather", serif;
+    font-style: italic;
+    line-height: 1.5;
+    font-weight: 300;
+    list-style: circle; 
+}
+
+p.citation{
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    color: #fb5185
+}
+
+a:link{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fb5185;
+}
+
+a:visited{
+    font-weight: 100;
+    color: #77ced5;
+}
+
+cite{
+    font-style: italic;
+}
+
+header h2.brand{
+    font-family: "Google Sans Code", sans-serif;
+    font-weight: 600; 
+    text-align: center;
+    letter-spacing: 0.025em; 
+    padding: 1rem 1rem;
+    margin: 3rem 10rem 0 10rem;
+    color: #f6f5cc;
+    box-shadow: 2px 2px 2px lightgray;
+    background-color: #0c3ddc;
+    border: none;
+    border-radius: 5px;
+}
+
+.final{
+    padding-bottom: 10rem;
+}
